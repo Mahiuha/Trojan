@@ -5,7 +5,7 @@ import time
 import imp
 import random
 import threading
-import Queue
+from queue import Queue
 import os
 
 from github3 import login
